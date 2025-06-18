@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Web & Tech</title>
+  <link rel="stylesheet" href="INGGBAATEST-pro.css">
+</head>
+<body>
+
+  <h1>Bienvenuue au concours numérique national nommée(INGGBAATEST-Pro )
+</h1>
+
+  <form id="userInfo">
+    <label>Nom : <input type="text" id="nom" required></label><br><br>
+    <label>Email : <input type="email" id="email" required></label><br><br>
+    <button type="button" onclick="startQuiz()">Commencer le quiz</button>
+  </form>
+
+  <div id="quizContainer" style="display: none;">
+    <div id="timer">Temps restant : 20:00</div>
+    <div id="questions"></div>
+    <button onclick="nextQuestion()">Suivant</button>
+  </div>
+
+  <div class="result" id="resultat"></div>
+
+  <script src="INGGBAATEST-pro.js">
+    
+  </script>
+
+</body>
+</html>
